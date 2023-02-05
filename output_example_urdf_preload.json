@@ -1,0 +1,143 @@
+{
+    "kornbot380@hotmail.com": {
+        "Service_robot": {
+            "Atlete_robotics": {
+                "joint": {
+                    "Body_1": {
+                        "axis": {
+                            "limit": {
+                                "effort": 0,
+                                "lower": 3.14,
+                                "upper": -3.14
+                            },
+                            "xyz": [
+                                0,
+                                0,
+                                -1
+                            ]
+                        },
+                        "child": "Body",
+                        "name": "Body_1",
+                        "origin": {
+                            "rpy": {
+                                "p": 0,
+                                "r": 0,
+                                "y": 0
+                            },
+                            "xyz": {
+                                "x": -3.2744803428649902,
+                                "y": 0,
+                                "z": 0
+                            }
+                        },
+                        "parent": "Body",
+                        "type": "planar"
+                    }
+                },
+                "link": {
+                    "Body": {
+                        "collision": {
+                            "geometry": {
+                                "mesh": {
+                                    "filename": "../meshes/Body.stl"
+                                }
+                            },
+                            "origin": {
+                                "rpy": {
+                                    "p": 0,
+                                    "r": 0,
+                                    "y": 0
+                                },
+                                "xyz": {
+                                    "x": -3.2744803428649902,
+                                    "y": 0,
+                                    "z": 0
+                                }
+                            }
+                        },
+                        "inertial": {
+                            "inertia": {
+                                "ixx_dat": 0.455,
+                                "ixy_dat": 0.45530000000000004,
+                                "ixz_dat": 0.3443,
+                                "iyy_dat": 0.5665,
+                                "iyz_dat": 0.45430000000000004,
+                                "izz_dat": 0.6655
+                            },
+                            "mass": {
+                                "value": 256.55400000000003
+                            },
+                            "origin": {
+                                "rpy": {
+                                    "p": 0.467,
+                                    "r": 0.466,
+                                    "y": 0.454
+                                },
+                                "xyz": {
+                                    "x": 0.6554,
+                                    "y": 0.5660000000000001,
+                                    "z": 0.433
+                                }
+                            }
+                        },
+                        "visual": {
+                            "color": {
+                                "rgba": "207 0 0 1"
+                            },
+                            "geometry": {
+                                "mesh": {
+                                    "file_name": "../meshes/Body.stl"
+                                }
+                            },
+                            "origin": {
+                                "rpy": {
+                                    "p": 0,
+                                    "r": 0,
+                                    "y": 0
+                                },
+                                "xyz": {
+                                    "x": -3.2744803428649902,
+                                    "y": 0,
+                                    "z": 0
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}1~{
+    "joint": {
+        "Body_1": {
+            "name": "Body_1",
+            "type": "planar",
+            "origin": {
+                "xyz": {
+                    "x": -3.2744803428649902,
+                    "y": 0,
+                    "z": 0
+                },
+                "rpy": {
+                    "r": 0,
+                    "p": 0,
+                    "y": 0
+                }
+            },
+            "parent": "Body",
+            "child": "Body",
+            "axis": {
+                "xyz": [
+                    0,
+                    0,
+                    -1
+                ],
+                "limit": {
+                    "lower": 3.14,
+                    "upper": -3.14,
+                    "effort": 0
+                }
+            }
+        }
+    }
+}
